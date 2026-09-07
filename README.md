@@ -63,7 +63,7 @@ A local, intentionally vulnerable web application designed for learning and prac
 
 ```powershell
 # 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/XSS-Lab.git
+git clone https://github.com/alifm0rtaza/XSS-Lab.git
 
 # 2. Enter project directory
 cd XSS-Lab
@@ -79,7 +79,7 @@ npm install
 sudo apt update && sudo apt install -y git nodejs npm
 
 # 2. Clone repository & enter directory
-git clone https://github.com/YOUR-USERNAME/XSS-Lab.git
+git clone https://github.com/alifm0rtaza/XSS-Lab.git
 cd XSS-Lab
 
 # 3. Install dependencies
@@ -90,7 +90,7 @@ npm install
 
 ```bash
 # 1. Clone repository & enter directory
-git clone https://github.com/YOUR-USERNAME/XSS-Lab.git
+git clone https://github.com/alifm0rtaza/XSS-Lab.git
 cd XSS-Lab
 
 # 2. Install dependencies
@@ -101,7 +101,7 @@ npm install
 
 ```bash
 # 1. Clone repository & enter directory
-git clone https://github.com/YOUR-USERNAME/XSS-Lab.git
+git clone https://github.com/alifm0rtaza/XSS-Lab.git
 cd XSS-Lab
 
 # 2. Install dependencies
@@ -112,7 +112,7 @@ npm install
 
 ```bash
 # Clone and run via Docker Compose
-git clone https://github.com/YOUR-USERNAME/XSS-Lab.git
+git clone https://github.com/alifm0rtaza/XSS-Lab.git
 cd XSS-Lab
 docker compose up --build
 ```
