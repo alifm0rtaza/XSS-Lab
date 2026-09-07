@@ -1,0 +1,28 @@
+{
+  "name": "xss-lab",
+  "version": "2.0.0",
+  "description": "Educational Cross-Site Scripting (XSS) Laboratory",
+  "main": "src/server/server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "node --watch src/server/server.js",
+    "test": "node --test --test-concurrency=1 tests/reflected.test.js tests/stored.test.js tests/dom.test.js tests/payloads.test.js tests/workbench.test.js tests/modal_and_reset.test.js tests/restore_and_beef.test.js",
+    "test:qa": "node tests/deep_qa_verification.js"
+  },
+  "keywords": [
+    "xss",
+    "security-lab",
+    "appsec",
+    "cross-site-scripting",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
